@@ -1,0 +1,2038 @@
+@font-face {
+    font-family: Main;
+    src: url(SnellRoundhand-BoldScript.ttf);
+}
+@font-face {
+    font-family: font-1;
+    src: url(Italianno-Regular.ttf);
+}
+@font-face {
+    font-family: font-2;
+    src: url(CormorantGaramond-Bold.ttf);
+}
+
+@font-face {
+    font-family: font-3;
+    src: url(CormorantGaramond-Regular.ttf);
+}
+@font-face {
+    font-family: font-4;
+    src: url(Dream\ Avenue.ttf);
+}
+@font-face {
+    font-family: font-5;
+    src: url(CinzelDecorative-Regular.ttf);
+}
+@font-face {
+    font-family: font-6;
+    src: url(PetitFormalScript-Regular.ttf);
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+header {
+    background-image: url('bg.png');
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    max-width: 100%;
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.logo1 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    z-index: 1;
+}
+.logo1 h1{
+    font-family: font-4;
+    font-size: 300%;
+    color: #e8ded6;
+}
+.Header {
+    position: absolute;
+    top: 10%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(249, 243, 236);
+    width: 100%;
+    max-width: 100%;
+    z-index: 1;
+}
+.Header p {
+    font-family: Main;
+    font-size: 1000%;
+    width: 100%;
+    text-align: center; 
+    color: rgb(249, 243, 236);
+    margin-bottom: -10%;
+    margin-left: -5%;
+    max-width: 100%;
+}
+.logo2 {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    z-index: 1;
+}
+.logo2 h1{
+    font-family: font-4;
+    font-size: 300%;
+    color: #e8ded6;
+}
+
+.Date {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+}
+
+.Date h1{
+    font-family: font-4;
+    font-size: 350%;
+    color: #e8ded6;
+}
+.Date p{
+    font-family: font-4;
+    font-size: 230%;
+    color: #e8ded6;
+    padding: 0%;
+    margin: 0%;
+    margin-top: -5%;
+}
+
+.Div {
+    position: absolute;
+    top: 45%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    z-index: 1;
+}
+
+img.div {
+    width: 50%;
+    height: auto;
+    max-width: 100%;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.request {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+    max-width: 100%;
+    width: 100%;
+}
+
+.request h2{
+    font-family: font-6;
+    font-size: 200%;
+    color: #e8ded6;
+    margin-top: 1%;
+    margin-bottom: 6%;
+}
+.request p{
+    font-family: font-6;
+    font-size: 170%;
+    color: #e8ded6;
+    padding: 0%;
+    margin: 0%;
+    margin-top: -5%;
+}
+.Entourage {
+    background-image: url('logo-bg.png');
+    background-size: contain;
+    background-position: center; /* Adjust as needed */
+    background-repeat: repeat-y;
+    /* Additional styles if needed */
+    padding: 20px; /* Add padding if needed */
+    color: white; /* Set text color to white or a contrasting color */
+}
+.custom-section {
+    height: 100%; /* Adjust the height as needed */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: black;
+    display: flex;
+    flex-direction: row; /* Updated to display side by side */
+    justify-content: center;
+    align-items: center;
+}
+.custom-section .G-parents{
+    margin-right: 15%;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.custom-section .B-parents{
+    margin-left: 15%;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}   
+.custom-section, .G-parents .P-title,
+.custom-section, .B-parents .P-title {
+    font-family: main;
+    font-size: 180%;
+    text-decoration: underline;
+}
+
+.custom-section, .G-parents p,
+.custom-section, .B-parents p{
+    font-family: font-1;
+    font-size: 150%;
+    text-decoration: none;
+}
+
+.Gparents-title {
+    height: 5%; /* Adjust the height as needed */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: black;
+    display: flex;
+    flex-direction: row; /* Updated to display side by side */
+    justify-content: center;
+    align-items: center;
+    font-family: Main;
+    font-size: 250%;
+    text-decoration: underline;
+}     
+.Gparents-title .Gparents .gp-title{
+    padding: 20px;
+    margin-top: 50px;;
+    margin-bottom: 50px;
+}
+.Godparents {
+    height: 30%; /* Adjust the height as needed */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: black;
+    display: flex;
+    flex-direction: row; /* Updated to display side by side */
+    justify-content: center;
+    align-items: center;
+}
+.Godparents .Godfathers{
+    margin-right: 15%;
+}
+.Godparents .Godmothers{
+    margin-left: 15%;
+}   
+.Godparents .Godfathers .gf-title,
+.Godparents .Godmothers .gm-title{
+    font-family: Main;
+    font-size: 180%;
+    text-decoration: underline;
+    padding: 20px;
+    margin-top: 30px;;
+}
+
+.Godparents, .Godfathers li,
+.Godparents, .Godmothers li{
+    font-family: font-1;
+    font-size: 150%;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+.Best-Man {
+    height: 10%; /* Adjust the height as needed */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: black;
+    display: flex;
+    flex-direction: row; /* Updated to display side by side */
+    justify-content: center;
+    align-items: center;
+}   
+
+.Best-Man .best{
+    font-family: Main;
+    font-size: 250%;
+    text-decoration: underline;
+    padding: 20px;
+    margin-top: 50px;;
+}
+
+.Best-Man p{
+    font-family: font-1;
+    font-size: 270%;
+}
+
+.Maid-of-honor {
+    height: 5%; /* Adjust the height as needed */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: black;
+    display: flex;
+    flex-direction: row; /* Updated to display side by side */
+    justify-content: center;
+    align-items: center;
+} 
+
+.Maid-of-honor .maid{
+    font-family: Main;
+    font-size: 250%;
+    text-decoration: underline;
+    padding: 20px;
+    margin-top: 50px;;
+}
+
+.Maid-of-honor p{
+    font-family: font-1;
+    font-size: 270%;
+}
+
+.Role1 {
+    height: 100%; /* Adjust the height as needed */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: black;
+    display: flex;
+    flex-direction: row; /* Updated to display side by side */
+    justify-content: center;
+    align-items: center;
+}
+.Role1 .Groomsmen{
+    margin-right: 15%;
+}
+.Role1 .Bridesmaids{
+    margin-left: 15%;
+}  
+
+.Role1 .men-title,
+.Role1 .maid-title{
+    font-family: Main;
+    font-size: 250%;
+    text-decoration: underline;
+    padding: 20px;
+    margin-top: 50px;;
+}
+.Role1 li{
+    font-family: font-1;
+    font-size: 250%;
+}
+
+.Candles {
+    height: 5%; /* Adjust the height as needed */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: black;
+    display: flex;
+    flex-direction: row; /* Updated to display side by side */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} 
+
+.Candles .candles .c-title{
+    font-family: Main;
+    font-size: 250%;
+    text-decoration: underline;
+    padding: 20px;
+    margin-top: 50px;;
+}
+
+.Candles p{
+    font-family: font-1;
+    font-size: 250%;
+    display: inline-block;
+    margin: 0 100px;
+}
+
+.Veil {
+    height: 5%; /* Adjust the height as needed */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: black;
+    display: flex;
+    flex-direction: row; /* Updated to display side by side */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} 
+
+.Veil .veil .v-title{
+    font-family: Main;
+    font-size: 250%;
+    text-decoration: underline;
+    padding: 20px;
+    margin-top: 50px;;
+}
+
+.Veil p{
+    font-family: font-1;
+    font-size: 250%;
+    display: inline-block;
+    margin: 0 100px;
+}
+
+.Cord {
+    height: 5%; /* Adjust the height as needed */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: black;
+    display: flex;
+    flex-direction: row; /* Updated to display side by side */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} 
+
+.Cord .cord .cd-title{
+    font-family: Main;
+    font-size: 250%;
+    text-decoration: underline;
+    padding: 20px;
+    margin-top: 50px;;
+}
+
+.Cord p{
+    font-family: font-1;
+    font-size: 250%;
+    display: inline-block;
+    margin: 0 100px;
+}
+
+.Role2 {
+    height: 100%; /* Adjust the height as needed */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: black;
+    display: flex;
+    flex-direction: row; /* Updated to display side by side */
+    justify-content: center;
+    align-items: center;
+}
+.Role2 .bible{
+    margin-right: 15%;
+}
+.Role2 .ring{
+    margin-left: -2%;
+}
+.Role2 .coin{
+    margin-left: 15%;
+}  
+
+.Role2 .bible .b-title,
+.Role2 .ring .r-title,
+.Role2 .coin .cn-title{
+    font-family: Main;
+    font-size: 250%;
+    text-decoration: underline;
+    padding: 20px;
+    margin-top: 50px;;
+}
+
+.Role2 p{
+    font-family: font-1;
+    font-size: 235%;
+    text-decoration: none;
+}
+
+.Flower {
+    height: 5%; /* Adjust the height as needed */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: black;
+    display: flex;
+    flex-direction: row; /* Updated to display side by side */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} 
+
+.Flower .flower .f-title{
+    font-family: Main;
+    font-size: 250%;
+    text-decoration: underline;
+    padding: 20px;
+    margin-top: 50px;;
+}
+
+.Flower p{
+    font-family: font-1;
+    font-size: 235%;
+    display: inline-block;
+    margin: 0 40px;
+    margin-bottom: 50px;
+}
+
+.image-title {
+    width: 20%;
+    margin-top: 3%;
+    margin-left: 40%;
+    margin-bottom: 0%;
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 0%;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.image-container .church,
+.image-container .reception {
+    margin: 0 10px;
+    text-align: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.change-icon-button,
+.link-button {
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 20px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.change-icon-button img,
+.link-button img {
+    width: 50px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.image-container .icon1,
+.image-container .icon2 {
+    margin: 0 10px;
+    text-align: center;
+    width: 30%;
+}
+.Ceremony {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Ceremony .icon4 {
+    text-align: center;
+    margin-top: 5%;
+    width: 30%;
+}
+.Ceremony h2{
+    font-family: font-3;
+}
+.Ceremony .phone{
+    margin: 0 10px;
+    text-align: center;
+    width: 5%;
+}
+.Ceremony .camera{
+    margin: 0 10px;
+    text-align: center;
+    width: 5%;
+}
+.Memory {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Memory .icon7 {
+    text-align: center;
+    margin-top: 5%;
+    width: 28%;
+}
+.Attire {
+    text-align: center;
+}
+
+.Attire .title {
+    margin-top: 3%;
+    width: 30%; 
+}
+
+.Attire .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Attire .text {
+    text-align: left; 
+}
+.Attire .suit {
+    width: 5%;
+    margin-left: 5%; 
+}
+
+.Attire h4 {
+    font-family: font-5;
+    max-width: 100%;
+    margin-bottom: 0; 
+    text-align: center;
+}
+.Attire .Female {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+}
+
+.Attire .female-text {
+    margin: 20px 0; 
+}
+
+.Attire .navy {
+    width: 13%;
+    margin-right: 2%; 
+}
+
+.Attire .palette {
+    width: 7%;
+    margin-left: 2%;
+    margin-bottom: 5%;
+}
+.Attire .female-text h4 {
+    font-family: font-5;
+    max-width: 100%;
+    margin-bottom: 0; 
+}
+.Female .colors{
+    width: 15%;
+}
+.Gift {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Gift .icon6 {
+    text-align: center;
+    margin-top: 5%;
+    width: 18%;
+}
+.image-description{
+    font-family: font-5;
+}
+.image-container .address {
+    font-size: 100%;
+}
+.Guidelines-text{
+    font-family: font-5;
+}
+.banner{
+    margin-bottom: 50px;
+}
+.RSVP{
+    width: 100%;
+}
+.gforms1{
+    width: 50%; 
+    float: left; 
+}
+
+.gforms2 {
+    width: 50%;
+    float: right; 
+}
+.gforms1, .gforms2 {
+    box-sizing: border-box;
+}
+
+.reception h1{
+    padding: 0%;
+    margin-bottom: 10%;
+}
+.Secondary .sec-title {
+    height: 100%;
+   /* background: rgba(170,188,199,1);*/
+    font-family: Main;
+    font-size: 250%;
+    color: black;
+    padding: 0%;
+    margin: 0%;
+    text-align: center;
+    text-decoration: underline;
+}     
+@media screen and (min-width: 360px) and (max-width: 480px) and (orientation: portrait){ /*phone size view */  
+    body {
+        width: 100;
+        overflow-x: hidden;
+    }
+
+    main {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .logo1 {
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #fff;
+        width: 100%;
+        z-index: 1;
+    }
+    .logo1 h1{
+        font-family: font-4;
+        font-size: 200%;
+        color: #e8ded6;
+    }
+    .Header {
+        position: absolute;
+        top: 22%;
+        left: 70%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: rgb(249, 243, 236);
+        width: 100%;
+        max-width: 100%;
+        z-index: 1;
+    }
+    .Header p {
+        font-family: Main;
+        font-size: 400%;
+        width: 70%;
+        max-width: 100%;
+        text-align: center; 
+        color: rgb(249, 243, 236);
+        margin-bottom: -10%;
+        margin-left: -5%;  
+        max-width: 100%;
+    }  
+    .logo2 {
+        position: absolute;
+        top: 46%;
+        left: 65%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #fff;
+        width: 100%;
+        z-index: 1;
+    }
+    .logo2 h1{
+        font-family: font-4;
+        font-size: 175%;
+        color: #e8ded6;
+        max-width: 100%;
+        width: 70%;
+    }
+    .Div {
+        position: absolute;
+        top: 50%;
+        left: 55%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #fff;
+        width: 100%;
+        z-index: 1;
+    }
+    
+    img.div {
+        width: 90%;
+        height: auto;
+        max-width: 100%;
+        margin-bottom: 10px;
+        position: absolute;
+    }
+    .Date {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        z-index: 1;
+        width: 100%;
+    }
+    
+    .Date h1{
+        font-family: font-4;
+        font-size: 200%;
+        color: #e8ded6;
+    }
+    .Date p{
+        font-family: font-4;
+        font-size: 150%;
+        color: #e8ded6;
+        padding: 0%;
+        margin: 0%;
+        margin-top: -5%;
+    }
+    .request{
+        top: 85%;
+        max-width: 100%;
+        width: 90%;
+    }
+    .request h2{
+        font-size: 150%;
+        color: #e8ded6;
+        margin-top: 1%;
+        margin-bottom: 6%;
+    }
+    .request p{
+        font-size: 100%;
+        color: #e8ded6;
+        padding: 0%;
+        margin: 0%;
+        margin-top: -5%;
+    }
+    .image-title {
+        width: 40%;
+        margin-top: 8%;
+        margin-left: 30%;
+        margin-bottom: 0%;
+        text-align: center;
+    }
+    .image-container{
+        flex-direction: column;
+    }
+    .image-container .image-description {
+        font-size: 65%;
+    }
+    .image-container .address {
+        font-size: 80%;
+    }
+    .image-container .church .icon1 {
+        width: 35%;
+    }
+    .image-container .reception .icon2 {
+    width: 40%;
+    }
+    .image-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 0%;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    .custom-section {
+        flex-direction: column;
+        align-items: center;
+    }
+    .custom-section .B-parents {
+        margin: 0; 
+        padding: 20px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .custom-section .G-parents {
+        margin: 0; 
+        padding: 10px;
+        margin-top: 50px;
+        margin-bottom: 0px;
+    }
+    .custom-section, .G-parents .P-title,
+    .custom-section, .B-parents .P-title {
+        font-family: Main;
+        font-size: 120%;
+        text-decoration: underline;
+    }
+    
+    .custom-section, .G-parents p,
+    .custom-section, .B-parents p{
+        font-family: font-1;
+        font-size: 150%;
+        text-decoration: none;
+    }
+    .Gparents-title {
+        flex-direction: column;
+    }
+
+    .Gparents-title .Gparents .gp-title {
+        padding: 20px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .Gparents-title {
+        font-family: Main;
+        font-size: 200%;
+        text-decoration: underline;
+    }
+    .Godparents .Godfathers .gf-title,
+    .Godparents .Godmothers .gm-title{
+     font-size: 100%;
+    }
+    .Godparents .Godfathers li,
+    .Godparents .Godmothers li {
+        list-style: none;
+        padding: 0px;
+        text-align: center; 
+        max-width: 100%;
+        width: 100%;
+        margin-left: -15%;
+    }
+    .Godparents .Godfathers li,
+    .Godparents .Godmothers li{
+    font-size: 80%;
+    }
+    .Godparents .Godmothers{
+        margin-left: -20%;
+    }   
+    .Secondary .sec-title{
+        font-size: 200%;
+    }
+    .Secondary .Candles .candles .c-title{
+        font-size: 180%;
+    }
+    .Secondary .Candles .candles p{
+        font-size: 200%;
+    }
+    .Secondary .Veil .veil .v-title{
+        font-size: 180%;
+    }
+    .Secondary .Veil .veil p{
+        font-size: 200%;
+    }
+    .Secondary .Cord .cord .cd-title{
+        font-size: 180%;
+    }
+    .Secondary .Cord .cord p{
+        font-size: 200%;
+        width: 100%;
+        margin-left: -2%;
+    }
+    .Best-Man .best-man .best{
+        font-size: 180%;
+    }
+    .Best-Man .best-man p{
+        font-size: 220%;
+    }
+    .Maid-of-honor .maid-of-honor .maid{
+        font-size: 180%;
+    }
+    .Maid-of-honor .maid-of-honor p{
+        font-size: 220%;
+    }
+    .Role1 .Groomsmen .men-title,
+    .Role1 .Bridesmaids .maid-title{ 
+        margin-top: -5%;   
+        font-size: 150%;
+        margin-bottom: -15%;
+    }
+    .Role1 .Groomsmen li,
+    .Role1 .Bridesmaids li{    
+        font-size: 120%;
+        margin-left: -20%;
+    }
+    .Role1 .Bridesmaids{
+        margin-left: -10%;
+    }
+    .Role2{
+        flex-direction: column;
+    }
+    .Role2 .bible .b-title,
+    .Role2 .ring .r-title,
+    .Role2 .coin .cn-title{
+        font-size: 170%;
+    }
+    .Role2 .bible p,
+    .Role2 .ring p,
+    .Role2 .coin p{
+        font-size: 200%;
+    }
+    .Role2 .bible,
+    .Role2 .ring{
+        margin-right: -1%;
+    }
+    .Role2 .coin{
+        margin-left: -5%;
+    }
+    .Flower .flower .f-title{
+        font-size: 180%;
+    }
+    .Flower .flower p{
+        font-size: 210%;
+    }
+    .Gift .icon6{
+        width: 28%;
+    }
+    .Memory .icon7{
+        width: 45%;
+    }
+    .Ceremony .icon4{
+        width: 50%;
+    }
+    .Ceremony .Guidelines-text h4{
+        font-size: 95%;
+    }
+    .Ceremony .Guidelines-text h2{
+        font-size: 120%;
+    }
+    .Ceremony .phone{
+        width: 12%;
+    }
+    .Ceremony .camera{
+        width: 12%;
+    }
+    .Attire .title{
+        width: 60%;
+    }
+    .Attire .content .female-text{
+        width: 65%;
+    }
+    .Attire .content .suit{
+        width: 8%;
+        margin-right: 3%;
+    }
+    .Attire .Female .navy{
+        width: 13%;
+    }
+    .Attire .Female .palette{
+        width: 8%;
+    }
+    .Attire .Female .colors{
+        width: 30%;
+    }
+    .Guidelines-text{
+        max-width: 100%;
+        width: 90%;
+    }
+    .gforms1,
+    .gforms2{
+        width: 100%;
+        float: none;
+    }
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation: portrait){ /* ipad size view */
+    body {
+        width: 100;
+        overflow-x: hidden;
+    }
+
+    main {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .Header {
+        position: absolute;
+        top: 25%;
+        left: 70%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: rgb(249, 243, 236);
+        width: 100%;
+        max-width: 100%;
+        z-index: 1;
+    }
+    .Header p {
+        font-family: Main;
+        font-size: 800%;
+        width: 70%;
+        max-width: 100%;
+        text-align: center; 
+        color: rgb(249, 243, 236);
+        margin-bottom: -10%;
+        margin-left: -5%;  
+        max-width: 100%;
+    }  
+    .logo2 {
+        position: absolute;
+        top: 55%;
+        left: 65%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #fff;
+        width: 100%;
+        z-index: 1;
+    }
+    .logo2 h1{
+        font-family: font-4;
+        font-size: 250%;
+        color: #e8ded6;
+        max-width: 100%;
+        width: 70%;
+    }
+    .Div {
+        position: absolute;
+        top: 58%;
+        left: 55%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #fff;
+        width: 100%;
+        z-index: 1;
+    }
+    
+    img.div {
+        width: 90%;
+        height: auto;
+        max-width: 100%;
+        margin-bottom: 10px;
+        position: absolute;
+    }
+    .Date {
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        z-index: 1;
+        width: 100%;
+    }
+    
+    .Date h1{
+        font-family: font-4;
+        font-size: 300%;
+        color: #e8ded6;
+    }
+    .Date p{
+        font-family: font-4;
+        font-size: 230%;
+        color: #e8ded6;
+        padding: 0%;
+        margin: 0%;
+        margin-top: -5%;
+    }
+    .image-title {
+        width: 30%;
+        margin-top: 8%;
+        margin-left: 35%;
+        margin-bottom: 0%;
+        text-align: center;
+    }
+    .image-container .church .icon1 {
+        width: 40%;
+    }
+    .image-container .reception .icon2 {
+    width: 40%;
+    }
+    .Ceremony .icon4 {
+        text-align: center;
+        margin-top: 5%;
+        width: 45%;
+    }
+    .Gift .icon6 {
+        text-align: center;
+        margin-top: 5%;
+        width: 25%;
+    }
+    .Memory .icon7 {
+        text-align: center;
+        margin-top: 5%;
+        width: 45%;
+    }
+    .Guidelines-text{
+        font-size: 105%;
+        max-width: 90%;
+    }
+    .custom-section .G-parents{
+        margin-right: 0%;
+        padding: 20px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 100%;
+    }
+    .custom-section .B-parents{
+        margin-left: 10%;
+        padding: 20px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 100%;
+    }  
+    .Godparents .Godfathers{
+        margin-right: 3%;
+    }
+    .Godparents .Godmothers{
+        margin-left: 2%;
+    } 
+    .Role1 .Groomsmen{
+        margin-right: 5%;
+    }
+    .Role1 .Bridesmaids{
+        margin-left: 5%;
+    }  
+    .Role2{
+        align-items: center;
+        width: 98%;
+        max-width: 100%;
+        width: 100%;
+    }
+    .Role2 .b-title .cn-title .r-title{
+        width: 100%;
+    }
+    .Role1, .Groomsmen li,
+    .Role1, .Bridesmaids li{
+    font-family: font-1;
+    font-size: 145%;
+    text-decoration: none;
+}
+.Godparents, .Godfathers li,
+.Godparents, .Godmothers li{
+font-family: font-1;
+font-size: 140%;
+text-decoration: none;
+width: 100%;
+}
+.Attire {
+    text-align: center;
+}
+.Attire .title {
+    width: 55%; 
+}
+.Attire .suit {
+    width: 10%;
+    margin-right: 5%;
+}
+.Attire h4{
+    font-size: 105%;
+    max-width: 100%;
+    margin-left: 8%;
+}
+.Attire .female-text h4 {
+    font-size: 105%;
+    max-width: 100%;
+    margin-left: 0%; 
+}
+.Attire .navy {
+    width: 18%;
+    margin-left: 5%; 
+}
+.Attire .palette {
+    width: 9%;
+    margin-right: 5%;
+}
+.Female .colors{
+    width: 30%;
+}
+.Ceremony .phone{
+    width: 10%;
+}
+.Ceremony .camera{
+    width: 10%;
+}
+.request {
+    position: absolute;
+    top: 93%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+}
+.request h2{
+    font-size: 250%;
+    color: #e8ded6;
+    margin-bottom: 8%;
+}
+.request p{
+    font-size: 180%;
+    color: #e8ded6;
+    padding: 0%;
+    margin: 0%;
+    margin-top: -5%;
+}
+}
+@media only screen and (min-device-width : 280px) and (max-device-width : 320px){ /* galaxy fold size folded view */
+    body {
+        width: 100;
+        overflow-x: hidden;
+    }
+
+    main {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .logo1 {
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #fff;
+        width: 100%;
+        z-index: 1;
+    }
+    .logo1 h1{
+        font-family: font-4;
+        font-size: 150%;
+        color: #e8ded6;
+    }
+    .Header {
+        position: absolute;
+        top: 25%;
+        left: 55%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: rgb(249, 243, 236);
+        width: 100%;
+        max-width: 100%;
+        z-index: 1;
+    }
+    .Header p {
+        font-family: Main;
+        font-size: 400%;
+        width: 95%;
+        max-width: 100%;
+        text-align: center; 
+        color: rgb(249, 243, 236);
+        margin-bottom: -10%;
+        margin-left: -5%;  
+        max-width: 100%;
+    }  
+    .logo2 {
+        position: absolute;
+        top: 49%;
+        left: 65%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #fff;
+        width: 100%;
+        z-index: 1;
+    }
+    .logo2 h1{
+        font-family: font-4;
+        font-size: 120%;
+        color: #e8ded6;
+        max-width: 100%;
+        width: 70%;
+    }
+    .Div {
+        position: absolute;
+        top: 42%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #fff;
+        width: 100%;
+        z-index: 1;
+    }
+    
+    img.div {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        margin-bottom: 10px;
+        position: absolute;
+    }
+    .Date {
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        z-index: 1;
+        width: 100%;
+    }
+    
+    .Date h1{
+        font-family: font-4;
+        font-size: 150%;
+        color: #e8ded6;
+    }
+    .Date p{
+        font-family: font-4;
+        font-size: 140%;
+        color: #e8ded6;
+        padding: 0%;
+        margin: 0%;
+        margin-top: -5%;
+    }
+    .request{
+        top: 88%;
+        max-width: 100%;
+        width: 90%;
+    }
+    .request h2{
+        font-size: 130%;
+        color: #e8ded6;
+        margin-top: 3%;
+        margin-bottom: 8%;
+    }
+    .request p{
+        font-size: 100%;
+        color: #e8ded6;
+        padding: 0%;
+        margin: 0%;
+        margin-top: -5%;
+    }
+    .image-title {
+        width: 45%;
+        margin-top: 8%;
+        margin-left: 30%;
+        margin-bottom: 0%;
+        text-align: center;
+    }
+    .image-container{
+        flex-direction: column;
+    }
+    .image-container .image-description {
+        font-size: 65%;
+    }
+    .image-container .address {
+        font-size: 80%;
+    }
+    .image-container .church .icon1 {
+        width: 35%;
+    }
+    .image-container .reception .icon2 {
+    width: 40%;
+    }
+    .image-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 0%;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    .custom-section {
+        flex-direction: column;
+        align-items: center;
+    }
+    .custom-section .B-parents {
+        margin: 0; 
+        padding: 20px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .custom-section .G-parents {
+        margin: 0; 
+        padding: 10px;
+        margin-top: 50px;
+        margin-bottom: 0px;
+    }
+    .custom-section, .G-parents .P-title,
+    .custom-section, .B-parents .P-title {
+        font-family: Main;
+        font-size: 100%;
+        text-decoration: underline;
+    }
+    
+    .custom-section, .G-parents p,
+    .custom-section, .B-parents p{
+        font-family: font-1;
+        font-size: 140%;
+        text-decoration: none;
+    }
+    .Gparents-title .Gparents .gp-title {
+      font-size: 80%;
+    }
+    .Gparents-title .Gparents .gp-title {
+        padding: 20px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .Gparents-title {
+        font-family: Main;
+        font-size: 200%;
+        text-decoration: underline;
+    }
+    .Godparents .Godfathers .gf-title,
+    .Godparents .Godmothers .gm-title{
+     font-size: 80%;
+    }
+    .Godparents .Godfathers li,
+    .Godparents .Godmothers li {
+        list-style: none;
+        padding: 0px;
+        text-align: center; 
+        max-width: 100%;
+        width: 100%;
+        margin-left: -15%;
+    }
+    .Godparents .Godfathers li,
+    .Godparents .Godmothers li{
+    font-size: 52%;
+    }
+    .Godparents .Godmothers{
+        margin-left: -20%;
+    }   
+    .Secondary .sec-title{
+        font-size: 150%;
+    }
+    .Secondary .Candles .candles .c-title{
+        font-size: 150%;
+    }
+    .Secondary .Candles .candles p{
+        font-size: 135%;
+    }
+    .Secondary .Veil .veil .v-title{
+        font-size: 150%;
+    }
+    .Secondary .Veil .veil p{
+        font-size: 135%;
+    }
+    .Secondary .Cord .cord .cd-title{
+        font-size: 150%;
+    }
+    .Secondary .Cord .cord p{
+        font-size: 135%;
+    }
+    .Best-Man .best-man .best{
+        font-size: 135%;
+    }
+    .Best-Man .best-man p{
+        font-size: 135%;
+    }
+    .Maid-of-honor .maid-of-honor .maid{
+        font-size: 135%;
+    }
+    .Maid-of-honor .maid-of-honor p{
+        font-size: 135%;
+    }
+    .Role1 .Groomsmen .men-title,
+    .Role1 .Bridesmaids .maid-title{ 
+        margin-top: -5%;   
+        font-size: 135%;
+        margin-bottom: -15%;
+    }
+    .Role1 .Groomsmen li,
+    .Role1 .Bridesmaids li{    
+        font-size: 100%;
+        margin-left: -20%;
+    }
+    .Role1 .Bridesmaids{
+        margin-left: -10%;
+    }
+    .Role2{
+        flex-direction: column;
+    }
+    .Role2 .bible .b-title,
+    .Role2 .ring .r-title,
+    .Role2 .coin .cn-title{
+        font-size: 150%;
+    }
+    .Role2 .bible p,
+    .Role2 .ring p,
+    .Role2 .coin p{
+        font-size: 170%;
+    }
+    .Role2 .bible,
+    .Role2 .ring{
+        margin-right: -1%;
+    }
+    .Role2 .coin{
+        margin-left: -5%;
+    }
+    .Flower .flower .f-title{
+        font-size: 150%;
+    }
+    .Flower .flower p{
+        font-size: 170%;
+    }
+    .Gift .icon6{
+        width: 40%;
+    }
+    .Memory .icon7{
+        width: 60%;
+    }
+    .Ceremony .icon4{
+        width: 65%;
+    }
+    .Ceremony .Guidelines-text h2{
+        font-size: 100%;
+    }
+    .Ceremony .phone{
+        width: 15%;
+    }
+    .Ceremony .camera{
+        width: 15%;
+    }
+    .Attire .title{
+        width: 70%;
+    }
+    .Attire .content .text{
+        font-size: 80%;
+    }
+    .Attire .content .female-text{
+        width: 65%;
+        font-size: 80%;
+    }
+    .Attire .content .suit{
+        width: 8%;
+        margin-right: 3%;
+    }
+    .Attire .Female .navy{
+        width: 13%;
+    }
+    .Attire .Female .palette{
+        width: 8%;
+    }
+    .Attire .Female .colors{
+        width: 30%;
+    }
+    .Guidelines-text{
+        max-width: 100%;
+        width: 90%;
+        font-size: 80%;
+    }
+    .gforms1,
+    .gforms2{
+        width: 100%;
+        float: none;
+    }
+}
+@media only screen and (min-device-width : 481px) and (max-device-width : 1200px) and (orientation: landscape){ /* ipad size view */
+    .Header {
+        position: absolute;
+        top: 18%;
+        left: 80%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: rgb(249, 243, 236);
+        width: 100%;
+        max-width: 100%;
+        z-index: 1;
+    }
+    .Header p {
+        font-family: Main;
+        font-size: 550%;
+        width: 50%;
+        max-width: 100%;
+        text-align: center; 
+        color: rgb(249, 243, 236);
+        margin-bottom: -10%;
+        margin-left: -5%;
+        max-width: 100%;
+    } 
+    .logo2 {
+        position: absolute;
+        top: 55%;
+        left: 65%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #fff;
+        width: 100%;
+        z-index: 1;
+    }
+    .logo2 h1{
+        font-family: font-4;
+        font-size: 250%;
+        color: #e8ded6;
+        max-width: 100%;
+        width: 70%;
+    }
+    .Div {
+        position: absolute;
+        top: 43%;
+        left: 60%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #fff;
+        width: 90%;
+        z-index: 1;
+    }
+    
+    img.div {
+        width: 80%;
+        height: auto;
+        max-width: 100%;
+        margin-bottom: 10px;
+        position: absolute;
+    }
+    .Date {
+        position: absolute;
+        top: 67%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        z-index: 1;
+        width: 100%;
+    }
+    .Date h1{
+        font-family: font-4;
+        font-size: 280%;
+        color: #e8ded6;
+    }
+    .Date p{
+        font-family: font-4;
+        font-size: 230%;
+        color: #e8ded6;
+        padding: 0%;
+        margin: 0%;
+        margin-top: -2%;
+    }
+    .request {
+        position: absolute;
+        top: 95%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        z-index: 1;
+    }
+    .request h2{
+        font-size: 210%;
+        color: #e8ded6;
+        margin-bottom: 5%;
+    }
+    .request p{
+        font-size: 160%;
+        color: #e8ded6;
+        padding: 0%;
+        margin: 0%;
+        margin-top: -5%;
+        margin-bottom: 1%;
+    }
+    .image-container .church h1,
+    .image-container .reception h1{
+        font-size: 150%;
+
+    }
+    .custom-section .G-parents{
+        margin-right: 8%;
+        padding: 20px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .custom-section .B-parents{
+        margin-left: 8%;
+        padding: 20px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }  
+    .Godparents .Godfathers{
+        margin-right: 8%;
+    }
+    .Godparents .Godmothers{
+        margin-left: 8%;
+    }  
+}
+@media screen and (min-width: 650px) and (max-width: 1000px) and (orientation: landscape){ /* Phone size landscape */
+    body {
+        width: 100;
+        overflow-x: hidden;
+    }
+
+    main {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .logo1 {
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #fff;
+        width: 100%;
+        z-index: 1;
+    }
+    .logo1 h1{
+        font-family: font-4;
+        font-size: 200%;
+        color: #e8ded6;
+    }
+    .Header {
+        position: absolute;
+        top: 10%;
+        left: 67%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: rgb(249, 243, 236);
+        width: 100%;
+        max-width: 100%;
+        z-index: 1;
+    }
+    .Header p {
+        font-family: Main;
+        font-size: 400%;
+        width: 80%;
+        max-width: 100%;
+        text-align: center; 
+        color: rgb(249, 243, 236);
+        margin-bottom: -10%;
+        margin-left: -5%;  
+        max-width: 100%;
+    }  
+    .logo2 {
+        position: absolute;
+        top: 46%;
+        left: 65%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #fff;
+        width: 100%;
+        z-index: 1;
+    }
+    .logo2 h1{
+        font-family: font-4;
+        font-size: 180%;
+        color: #e8ded6;
+        max-width: 100%;
+        width: 70%;
+    }
+    .Div {
+        position: absolute;
+        top: 30%;
+        left: 66%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #fff;
+        width: 100%;
+        z-index: 1;
+    }
+    
+    img.div {
+        width: 70%;
+        height: auto;
+        max-width: 100%;
+        margin-bottom: 10px;
+        position: absolute;
+    }
+    .Date {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        z-index: 1;
+        width: 100%;
+    }
+    
+    .Date h1{
+        font-family: font-4;
+        font-size: 180%;
+        color: #e8ded6;
+    }
+    .Date p{
+        font-family: font-4;
+        font-size: 150%;
+        color: #e8ded6;
+        padding: 0%;
+        margin: 0%;
+        margin-top: -2%;
+    }
+    .request{
+        top: 93%;
+        max-width: 100%;
+        width: 90%;
+    }
+    .request h2{
+        font-size: 130%;
+        color: #e8ded6;
+        margin-top: 1%;
+        margin-bottom: 6%;
+    }
+    .request p{
+        font-size: 100%;
+        color: #e8ded6;
+        padding: 0%;
+        margin: 0%;
+        margin-top: -5%;
+    }
+    .custom-section .G-parents{
+        margin-right: 5%;
+        padding: 20px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .custom-section .B-parents{
+        margin-left: 5%;
+        padding: 20px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }  
+    .custom-section .G-parents .P-title{
+        font-size: 130%;
+    }
+    .custom-section .B-parents .P-title{
+        font-size: 130%;
+    }
+    .custom-section .G-parents p{
+        font-size: 150%;
+    }
+    .custom-section .B-parents p{
+        font-size: 150%;
+    }
+   
+    .Gparents-title .Gparents .gp-title {
+        padding: 20px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .Gparents-title {
+        font-family: Main;
+        font-size: 200%;
+        text-decoration: underline;
+    }
+    .Godparents .Godfathers .gf-title,
+    .Godparents .Godmothers .gm-title{
+     font-size: 100%;
+    }
+    .Godparents .Godfathers li,
+    .Godparents .Godmothers li {
+        list-style: none;
+        padding: 0px;
+        text-align: center; 
+        max-width: 100%;
+        width: 100%;
+        margin-left: -15%;
+    }
+    .Godparents .Godfathers li,
+    .Godparents .Godmothers li{
+    font-size: 90%;
+    }
+    .Godparents .Godmothers{
+        margin-left: 5%;
+    }   
+    .Secondary .sec-title{
+        font-size: 200%;
+    }
+    .Secondary .Candles .candles .c-title{
+        font-size: 180%;
+    }
+    .Secondary .Candles .candles p{
+        font-size: 200%;
+    }
+    .Secondary .Veil .veil .v-title{
+        font-size: 180%;
+    }
+    .Secondary .Veil .veil p{
+        font-size: 200%;
+    }
+    .Secondary .Cord .cord .cd-title{
+        font-size: 180%;
+    }
+    .Secondary .Cord .cord p{
+        font-size: 200%;
+    }
+    .Best-Man .best-man .best{
+        font-size: 180%;
+    }
+    .Best-Man .best-man p{
+        font-size: 220%;
+    }
+    .Maid-of-honor .maid-of-honor .maid{
+        font-size: 180%;
+    }
+    .Maid-of-honor .maid-of-honor p{
+        font-size: 220%;
+    }
+    .Role1 .Groomsmen .men-title,
+    .Role1 .Bridesmaids .maid-title{ 
+        margin-top: -5%;   
+        font-size: 150%;
+        margin-bottom: -15%;
+    }
+    .Role1 .Groomsmen li,
+    .Role1 .Bridesmaids li{    
+        font-size: 120%;
+        margin-left: -20%;
+    }
+    .Role1 .Bridesmaids{
+        margin-left: -10%;
+    }
+    .Role2{
+        flex-direction: column;
+    }
+    .Role2 .bible .b-title,
+    .Role2 .ring .r-title,
+    .Role2 .coin .cn-title{
+        font-size: 170%;
+    }
+    .Role2 .bible p,
+    .Role2 .ring p,
+    .Role2 .coin p{
+        font-size: 200%;
+    }
+    .Role2 .bible,
+    .Role2 .ring{
+        margin-right: -1%;
+    }
+    .Role2 .coin{
+        margin-left: -5%;
+    }
+    .Flower .flower .f-title{
+        font-size: 180%;
+    }
+    .Flower .flower p{
+        font-size: 210%;
+    }
+    .Ceremony .icon4 {
+        text-align: center;
+        margin-top: 5%;
+        width: 45%;
+    }
+    .Gift .icon6 {
+        text-align: center;
+        margin-top: 5%;
+        width: 25%;
+    }
+    .Memory .icon7 {
+        text-align: center;
+        margin-top: 5%;
+        width: 45%;
+    }
+    .Attire .title {
+        width: 50%; 
+    }
+    .Attire .Female .colors{
+        width: 20%;
+    }
+    .image-container .church h1, 
+    .image-container .reception h1{
+        font-size: 135%;
+    }
+    .image-container .address{
+        font-size: 85%;
+    }
+    .Guidelines-text{
+        max-width: 100%;
+        width: 90%;
+    }
+    .Ceremony .phone{
+        width: 8%;
+    }
+    .Ceremony .camera{
+        width: 8%;
+    }
+}
